@@ -77,6 +77,10 @@ struct bcm_bt_gpio {
 
 int idle_ip_index;
 
+int check_bt_op(void)
+{
+	return 0;
+}
 EXPORT_SYMBOL(check_bt_op);
 
 static int bcm43xx_bt_rfkill_set_power(void *data, bool blocked)
