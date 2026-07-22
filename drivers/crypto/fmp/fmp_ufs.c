@@ -458,7 +458,6 @@ int fmp_map_sg_st(struct ufs_hba *hba, struct ufshcd_sg_entry *prd_table,
 
 	return 0;
 }
-int fmp_map_sg_st(void) { return 0; }
 EXPORT_SYMBOL_GPL(fmp_map_sg_st);
 #endif
 
